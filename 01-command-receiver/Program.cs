@@ -8,7 +8,7 @@ while (true)
     Console.WriteLine($"Received: {command}");
     command = command.ToUpper();
     
-       if (command == "EXIT" || command == "NULL")
+       if (command == "EXIT" || command == "")
     {
         break;
     }
